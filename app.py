@@ -63,8 +63,8 @@ def main():
       st.success('Model has predicted {}'.format(result))
       
     if st.button("About"):
-      st.subheader("Developed by Deepak Moud")
-      st.subheader("Head , Department of Computer Engineering")
+      st.subheader("Developed by Rahul Kumar Agrawal PIET18CS116")
+      st.subheader("STUDENT section C1, Department of Computer Engineering")
 
 if __name__=='__main__':
   main()
