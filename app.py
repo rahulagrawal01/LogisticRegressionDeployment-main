@@ -37,18 +37,18 @@ def predict_note_authentication(UserID, Gender,Age,EstimatedSalary):
 def main():
     
     html_temp = """
-   <div class="" style="background-color:Brown;" >
+   <div class="" style="background-color:green;" >
    <div class="clearfix">           
    <div class="col-md-12">
-   <center><p style="font-size:40px;color:black;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
-   <center><p style="font-size:30px;color:black;margin-top:10px;">Department of Computer Engineering</p></center> 
-   <center><p style="font-size:25px;color:black;margin-top:10px;"Machine Learning Lab Experiment</p></center> 
+   <center><p style="font-size:35px;color:whitek;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
+   <center><p style="font-size:30px;color:white;margin-top:10px;">Department of Computer Engineering Section C1 PIET18CS116 </p></center> 
+   <center><p style="font-size:20px;color:white;margin-top:10px;"Machine Learning Lab Experiment Logistic Regression</p></center> 
    </div>
    </div>
    </div>
    """
     st.markdown(html_temp,unsafe_allow_html=True)
-    st.header("Item Purchase Prediction using Logistic Classification")
+    st.header("Item Purchase Prediction using Logistic Classification by Rahul")
     
     UserID = st.text_input("UserID","")
     
